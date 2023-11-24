@@ -44,6 +44,6 @@ Armazenamento secundário - HD (Disco Rígido) tem como principal função armaz
     
 Armazenamento secundário - SSD é uma memória com função semelahnte ao de um HD, porém com operações mais rápidas. Se assemelha a um pen-drive.
 
-Dispositivos de entrada fornecem informalções para o computador.
+Dispositivos de entrada fornecem informalções para o computador. (mouse e teclado)
 
-Dispositivos de saída transmitem informações do computadaor para o usuário. (Monitor, impressora)
+Dispositivos de saída transmitem informações do computadaor para o usuário. (monitor, impressora)
