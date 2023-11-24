@@ -5,7 +5,7 @@
 - Tipos de memórias
 - Dispositivos de entrada / saída
 
-# 1 - Arquitetura de Von Neumann
+# Arquitetura de Von Neumann
 
 O modelo de Von Neumann é uma forma de organização dos componentes de um sistema operacional
 
