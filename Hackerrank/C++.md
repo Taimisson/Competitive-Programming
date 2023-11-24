@@ -1,6 +1,6 @@
 # C++ Introduction 
  
- * Hackerrank C++ Introduction
+ * Hackerrank Solved C++ Introduction Questions
 
 ## Say "Hello, World!" With C++
 ```
