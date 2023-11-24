@@ -40,5 +40,10 @@ Memória RAM (Random Acess Memory) é uma memória volátil que armazena dados q
 
 Memória ROM (Read-only memory) é uma memória que só é possível ler informações contidas nela. Normalmente, a ROM é utilizada para armazenar daos necessários para o funcionamento das aplicações em um dispositivo específico.
 
-Armazenamento secundário - HD (Disco Rígido) tem como principal função armazenar grandes quantidades de dados.
+Armazenamento secundário - HD (Disco Rígido) tem como principal função armazenar grandes quantidades de dados. (Utiliza de forma mecânica uma agulha)
     
+Armazenamento secundário - SSD é uma memória com função semelahnte ao de um HD, porém com operações mais rápidas. Se assemelha a um pen-drive.
+
+Dispositivos de entrada fornecem informalções para o computador.
+
+Dispositivos de saída transmitem informações do computadaor para o usuário. (Monitor, impressora)
