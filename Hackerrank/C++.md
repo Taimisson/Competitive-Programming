@@ -1,5 +1,6 @@
 # C++ Introduction 
  
+ * Hackerrank C++ Introduction
 
 ## Say "Hello, World!" With C++
 ```
@@ -95,4 +96,92 @@ int main() {
 }
 ```
 
-## 
+## Functions
+```
+int max_of_four(int a, int b, int c, int d) {
+    
+    int e {max(a, b)};
+    int f {max (c, d)};
+    return max(e, f);
+}
+
+
+int main() {
+    int a, b, c, d;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    int ans = max_of_four(a, b, c, d);
+    printf("%d", ans);
+    
+    return 0;
+}
+```
+
+## Pointer
+```
+void modify(int *a, int *b){
+    int tempA = *a;
+    *a = tempA + *b;
+    *b = abs(tempA - *b);
+}
+
+
+int main() {
+    
+    int a;
+    int b;
+    cin >> a >> b;
+    
+    modify(&a, &b);
+    
+    cout << a << endl;
+    cout << b << endl;
+    
+    return 0;
+}
+```
+
+## Arrays Introduction
+```
+int main() {
+    int n;
+    cin >> n;
+    
+    int arr[n];
+    
+    for(int i = 0; i < n; i++)
+        cin >> arr[i];
+    
+    for(int i = n - 1; i >= 0; i--)
+        cout << arr[i] << " ";
+    
+    return 0;
+}
+
+```
+
+## Variable Sized Arrays
+```
+int main() {
+    int n;
+    int q;
+    cin >> n >> q;
+    
+    vector<vector<int>> arr(n);
+    
+    for(int i = 0; i < n; i++){
+        int k; 
+        cin >> k;
+        arr[i].resize(k);
+        for(int j = 0; j < k; j++)
+            cin >> arr[i][j];
+    }
+    
+    for(int i = 0; i < q; i++){
+        int x, y;
+        cin >> x >> y;
+        cout << arr[x][y] << endl;
+    }
+    
+    return 0;
+}
+```
