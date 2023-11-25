@@ -12,6 +12,7 @@ A saída consiste de uma linha contendo o resultado da expressão (A+B)
 Os inteiros fornecidos não terão valor absoluto maior que 1000.
 
 Exemplos de Entrada	Exemplos de Saída
+
         2                   5
         3
 
