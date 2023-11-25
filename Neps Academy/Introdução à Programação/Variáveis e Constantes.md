@@ -38,11 +38,13 @@ Exemplos de tipos:
 
 Para declarar uma variável em C, utilizaremos o seguinte template:
 
-> <tipo> <nome>;
-
+```
+ <tipo> <nome>;
+```
 Ou também podemos declarar várias variáveis do mesmo tipo numa mesma linha, separando os nomes por vírgulas, da seguinte forma:
-
-> <tipo> <nome1>, <nome2>;
+```
+ <tipo> <nome1>, <nome2>;
+```
 Alguns tipos básicos são: int, float e char.
 
 Os nomes serão os nomes das variáveis.
@@ -73,13 +75,17 @@ Na declaração de uma constante, seu valor já deve ser especificado.
 
 Uma constante pode ser declarada das duas formas seguintes:
 
-> const <tipo> <nome> = <valor>;
-> <tipo> const <nome> = <valor>;
+```
+const <tipo> <nome> = <valor>;
+<tipo> const <nome> = <valor>;
+```
 
 Exemplos:
 
-> const int constante = 123;
-> int const Neps = 789, Academy = 5;
+```
+const int constante = 123;
+int const Neps = 789, Academy = 5;
+```
 
 # Como imprimir um valor
 
@@ -94,10 +100,12 @@ Especificador	Tipo
 %f	            float
 %c	            char
 
-> printf("x = %d\n", 4);
-> int nota;
-> nota = 10;
-> printf("O Neps Academy eh nota %d!\n", nota);
+```
+ printf("x = %d\n", 4);
+ int nota;
+ nota = 10;
+ printf("O Neps Academy eh nota %d!\n", nota);
+```
 
 A linha 1 imprimirá a frase "x = 4", seguido de uma quebra de linha.
 
