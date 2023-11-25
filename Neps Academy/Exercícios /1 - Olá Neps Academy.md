@@ -12,8 +12,7 @@ Nesse problema especial você não precisa ler nenhuma informação como entrada
 * Saída
 A saída do seu programa deve ser apenas a frase "Ola Neps Academy!" (sem as aspas). Não se esqueça de adicionar o sinal de exclamação no final.
 
-* Exemplos de Entrada	Exemplos de Saída
-                        Ola Neps Academy!
+*	Exemplos de Saída: Ola Neps Academy!
 
 ## Solução em C
 
