@@ -14,7 +14,7 @@ A saída consiste de uma linha contendo a média inteira dos valores A e B.
 
 Os inteiros fornecidos não terem valor absoluto maior que 1000.
 
-Exemplos de Entrada	Exemplos de Saídazc
+Exemplos de Entrada	| Exemplos de Saídazc
 
         2                   2
         2

@@ -14,7 +14,7 @@ A saída consiste de uma linha contendo uma mensagem.
 
 O valor fornecido não terá valor absoluto maior que 1000.
 
-Exemplos de Entrada	Exemplos de Saídaz
+Exemplos de Entrada	| Exemplos de Saídaz
 
         7               positivo
         -8              negativo

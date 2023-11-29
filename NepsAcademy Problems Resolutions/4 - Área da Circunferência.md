@@ -16,7 +16,7 @@ A saída consiste de uma única linha contendo a área da circunferência com du
 
 Os valores fornecidos não serão negativos nem maior que 10000
 
-Exemplos de Entrada	Exemplos de Saída
+Exemplos de Entrada	| Exemplos de Saída
 
         2                 12.57
         7                 153.94

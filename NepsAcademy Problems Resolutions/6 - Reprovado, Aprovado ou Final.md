@@ -18,7 +18,7 @@ A saída consiste de uma linha. Caso Bino esteja aprovado, imprima "Aprovado". C
 
 0.0≤N1,N2≤10.0
 
-Exemplos de Entrada	Exemplos de Saída
+Exemplos de Entrada  |  Exemplos de Saída
 
         2
         2                  Reprovado
