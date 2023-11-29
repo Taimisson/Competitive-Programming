@@ -2,13 +2,13 @@
 
 Faça um programa que leia um inteiro X e imprima X vezes a mensagem "NepsAcademy eh Sucesso".
 
-Entrada
+- Entrada
 A entrada consiste de uma linha contendo um inteiro X.
 
-Saída
+- Saída
 A saída consiste de X linhas, cada uma contendo a mensagem indicada no enunciado.
 
-Restrições
+- Restrições
 1≤X≤100
 
 
