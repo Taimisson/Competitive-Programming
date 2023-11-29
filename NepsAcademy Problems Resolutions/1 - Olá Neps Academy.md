@@ -7,12 +7,16 @@ Dessa forma, para resolver esse problema você deve apenas imprimir a mensagem "
 Para enviar o código contendo sua solução, você deve usar os botões que se encontram no topo dessa página. O botão para enviar sua solução é identificado pelo símbolo do avião de papel.
 
 * Entrada
+
 Nesse problema especial você não precisa ler nenhuma informação como entrada.
 
 * Saída
+
 A saída do seu programa deve ser apenas a frase "Ola Neps Academy!" (sem as aspas). Não se esqueça de adicionar o sinal de exclamação no final.
 
-*	Exemplos de Saída: Ola Neps Academy!
+*	Exemplos de Saída: 
+
+Ola Neps Academy!
 
 ## Solução em C
 

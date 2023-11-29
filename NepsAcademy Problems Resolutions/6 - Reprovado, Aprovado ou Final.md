@@ -7,12 +7,15 @@ A nota final de Bino é calculada utilizando uma média ponderada onde o peso da
 Faça um programa para ler as duas notas de Bino e imprima qual sua situação.
 
 - Entrada
+
 A entrada consiste de duas linhas. A primeira linha contém um real representando a nota N1. A segunda linha contém um real representando a nota N2.
 
 - Saída
+
 A saída consiste de uma linha. Caso Bino esteja aprovado, imprima "Aprovado". Caso Bino esteja reprovado, imprima "Reprovado". Caso Bino não esteja reprovado ou aprovado, imprima "Final".
 
 - Restrições
+
 0.0≤N1,N2≤10.0
 
 Exemplos de Entrada	Exemplos de Saída
