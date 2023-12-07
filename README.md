@@ -1,4 +1,4 @@
-# Competitive Programming Repository
+<h1 align="center">Competitive Programming Repository</h1>
 
 <p align="center">
   <img src="https://github.com/Taimisson/Competitive-Programming/assets/100889845/d5bffe97-c031-4183-be44-cf57ad0a5348">
