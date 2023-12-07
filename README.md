@@ -1,6 +1,9 @@
 # Competitive Programming Repository
 
-![image](https://github.com/Taimisson/Competitive-Programming/assets/100889845/d5bffe97-c031-4183-be44-cf57ad0a5348)
+<p align="center">
+  <img src="https://github.com/Taimisson/Competitive-Programming/assets/100889845/d5bffe97-c031-4183-be44-cf57ad0a5348">
+</p>
+
 
 ## Overview
 This repository is a comprehensive collection of solutions and resources for competitive programming, with a focus on the C and C++ languages. It's an excellent resource for anyone looking to improve their coding skills in these languages, especially in the context of competitive programming.
