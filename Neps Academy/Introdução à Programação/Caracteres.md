@@ -84,3 +84,17 @@ Perceba que, no comando printf, utilizamos tanto o especificador de inteiros qua
 Também é possível utilizar o %d para realizar a leitura de um caractere, com a única diferença que o usuário deverá digitar a representação decimal do caractere desejado.
 
 Além dos comandos scanf e printf, também é possível utilizar os comandos getchar e putchar para realizar a entrada e saída de caracteres, respectivamente. Observe:
+
+```
+#include <stdio.h>
+
+int main(){
+    char x;
+
+    x = getchar(); // variavel x recebe o valor do caractere digitado pelo usuario
+
+    putchar(x); // o valor da variavel x eh impresso
+}
+```
+
+Observação: ao utilizar o comando getchar, o usuário deverá digitar o caractere, e não a representação decimal do mesmo.
