@@ -13,7 +13,8 @@ A saída consiste de uma única linha contendo um inteiro correspondente ao tama
 1≤∣S∣≤50
 A string contém apenas letras minúsculas do alfabeto.
 
-Exemplos de Entrada	 |  Exemplos de Saída
+Exemplos de Entrada	    |     Exemplos de Saída
+
       neps                      4
      academy                    7
     nepsacademy                 11
