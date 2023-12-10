@@ -5,7 +5,6 @@ Leia 2 valores inteiros e armazene-os nas variáveis A e B. Efetue a soma de A e
 [Extremamente Básico - BeeCrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1001)
 
 # Solução
-
 ```
 #include <iostream>
 using namespace std;
