@@ -6,3 +6,5 @@ Leia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C e se D fo
 
 # Solução
 
+```
+```
