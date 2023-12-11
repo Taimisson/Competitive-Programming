@@ -9,7 +9,6 @@ Leia um valor de ponto flutuante com duas casas decimais. Este valor representa 
 ```
 #include <iostream>
 #include <iomanip>
-
 using namespace std;
 
 int main() {
@@ -20,7 +19,8 @@ int main() {
     double moedas[] = {1, 0.50, 0.25, 0.10, 0.05, 0.01};
     
     cout << fixed << setprecision(2);
-    
+
+    // NOTAS
     cout << "NOTAS:" << endl;
     for(int valorNota : notas){ 
         int quantidadeNotas = int(x / valorNota);
@@ -31,6 +31,7 @@ int main() {
     // Ajuste de x para erros potenciais de arredondamento antes de processar as moedas
     x += 0.001; 
     
+    // MOEDAS
     cout << "MOEDAS:" << endl;
     for(double valorMoeda : moedas){
         int quantidadeMoedas = int(x / valorMoeda);
