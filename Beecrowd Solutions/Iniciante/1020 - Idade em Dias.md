@@ -7,7 +7,6 @@ Obs.: apenas para facilitar o cálculo, considere todo ano com 365 dias e todo m
 [Idade em Dias - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
 
 # Solução
-
 ```
 #include <iostream>
 using namespace std;
