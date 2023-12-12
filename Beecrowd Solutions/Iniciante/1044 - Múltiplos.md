@@ -14,6 +14,7 @@ int main() {
     int A, B;
     cin >> A >> B;
 
+    // Verifica se A é multiplo de A e vice-versa.
     if(B % A == 0 || A % B == 0)
         cout << "Sao Multiplos" << endl;
     else
