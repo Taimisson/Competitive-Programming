@@ -17,10 +17,33 @@ Leia o salário do funcionário e calcule e mostre o novo salário, bem como o v
 
 ```
 #include <bits/stdc++.h>
+#include <iomanip>
 using namespace std;
 
 int main(){
+    double salario, salarioNovo, porcentual;
+    cin >> salario;
     
-    
+    if(salario <= 400){
+        salarioNovo = (0.15 * salario) + salario;
+        porcentual = 15;
+    }else if(salario <= 800){
+        salarioNovo = (0.12 * salario) + salario;
+        porcentual = 12;
+    }else if(salario <= 1200){
+        salarioNovo = (0.10 * salario) + salario;
+        porcentual = 10;
+    }else if(salario <= 2000){
+        salarioNovo = (0.07 * salario) + salario;
+        porcentual = 7;
+    }else{
+        salarioNovo = (0.04 * salario) + salario;
+        porcentual = 4;
+    }
+        
+    cout << fixed << setprecision(2);
+    cout << "Novo salario: " << salarioNovo << "\n" << "Reajuste ganho: " << salarioNovo - salario << "\n";
+    cout << fixed << setprecision(0);
+    cout << "Em percentual: " << porcentual << " %"<< endl;
 }
 ```
