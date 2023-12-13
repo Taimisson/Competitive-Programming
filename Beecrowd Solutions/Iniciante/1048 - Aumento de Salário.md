@@ -16,4 +16,11 @@ Leia o salário do funcionário e calcule e mostre o novo salário, bem como o v
 # Solução
 
 ```
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    
+    
+}
 ```
