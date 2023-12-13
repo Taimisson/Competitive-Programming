@@ -7,5 +7,15 @@ Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do j
 # Solução
 
 ```
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    
+    
+    
+    
+    
+}
 
 ```
