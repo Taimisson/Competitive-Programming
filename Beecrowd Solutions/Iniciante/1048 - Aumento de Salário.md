@@ -47,3 +47,39 @@ int main(){
     cout << "Em percentual: " << porcentual << " %"<< endl;
 }
 ```
+
+// Outro caso
+```
+#include <bits/stdc++.h>
+#include <iomanip>
+using namespace std;
+
+double calculateNewSalary(double salario) {
+    const double brackets[] = {400, 800, 1200, 2000};
+    const double percentages[] = {0.15, 0.12, 0.10, 0.07, 0.04};
+
+    for (int i = 0; i < 5; ++i) {
+        if (i == 4 || salario <= brackets[i]) {
+            return salario * (1 + percentages[i]);
+        }
+    }
+
+    return salario; // In case none of the conditions are met
+}
+
+int main(){
+    double salario;
+    cin >> salario;
+
+    double salarioNovo = calculateNewSalary(salario);
+    double reajuste = salarioNovo - salario;
+    double porcentual = (reajuste / salario) * 100;
+
+    cout << fixed << setprecision(2);
+    cout << "Novo salario: " << salarioNovo << "\nReajuste ganho: " << reajuste << "\n";
+    cout << fixed << setprecision(0);
+    cout << "Em percentual: " << porcentual << " %" << endl;
+
+    return 0;
+}
+```
