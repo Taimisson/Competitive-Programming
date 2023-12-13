@@ -23,6 +23,5 @@ int main(){
         duracao = 24;
 
     cout << "O JOGO DUROU " << duracao << " HORA(S)" << endl;
-    
 }
 ```
