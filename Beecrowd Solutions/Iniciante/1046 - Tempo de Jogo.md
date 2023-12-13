@@ -12,10 +12,17 @@ using namespace std;
 
 int main(){
     
+    int horaInicial, horaFinal, duracao; 
+    cin >> horaInicial >> horaFinal;
     
-    
-    
+    if(horaInicial < horaFinal) // 10h 20h
+        duracao = horaFinal - horaInicial; // 20h - 10h = 10h 
+    else if(horaInicial > horaFinal) // 20h 10h
+        duracao = (24 - horaInicial) + horaFinal; // 24h - 20h = 4 + 10h = 14h
+    else
+        duracao = 24;
+
+    cout << "O JOGO DUROU " << duracao << " HORA(S)" << endl;
     
 }
-
 ```
