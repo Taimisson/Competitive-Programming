@@ -7,5 +7,18 @@ Faça um programa que leia 6 valores. Estes valores serão somente negativos ou 
 # Solução
 
 ```
+#include <iostream>
+using namespace std;
 
+int main(){
+    int count = 0;
+    for(int i = 0; i < 6; i++){
+        double num;
+        cin >> num;
+        if(num > 0)
+            count++;
+    }
+    cout << count << " valores positivos" << endl;
+    return 0;
+}
 ```
