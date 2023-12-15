@@ -19,15 +19,12 @@ int main(){
     int x;
     cin >> x;
 
-    if(x % 2 == 0){
+    if(x % 2 == 0)
         x++;
-        cout << x << endl;
-    }else
-        cout << x << endl;
-    
+
     for(int i = 0; i < 5; i++){
-        x+=2;
         cout << x << endl;
+        x+=2;
     }
     
     return 0;
