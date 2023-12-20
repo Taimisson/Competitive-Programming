@@ -23,6 +23,8 @@ void solve(){
         }
     }
     
+
+    // as posições são geralmente contadas a partir de 1, não de 0
     cout << maiorValor << "\n" << pos + 1 << "\n";
 }
 int main() {
