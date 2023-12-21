@@ -1,4 +1,4 @@
-# 1095 - Sequencia IJ 1
+# 1095 - Sequência IJ 1
 
 Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
 
@@ -8,7 +8,7 @@ I=7 J=50
 ...
 I=? J=0
 
-[Sequencia IJ 1 - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1095)
+[Sequência IJ 1 - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1095)
 
 # Solução
 
