@@ -11,6 +11,7 @@ Leia uma quantidade indeterminada de duplas de valores inteiros X e Y. Escreva p
 using namespace std;
 
 void solve(int x, int y){
+    
 	if(x < y)
 		cout << "Crescente" << "\n";
 	else
