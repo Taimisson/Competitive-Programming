@@ -30,4 +30,5 @@ int main(){
 		else
 			solve(x, y);
 	}
-}```
+}
+```
