@@ -16,21 +16,20 @@ int main(){
     cin.tie(0);
     
     int alcool = 0, gasolina = 0, diesel = 0; 
-    bool loop = true;
-    while(loop){
+    while(true){
         int tipo; 
         cin >> tipo;
         switch(tipo){
             case 1: alcool++; break;
             case 2: gasolina++; break;
             case 3: diesel++; break;
-            case 4: loop = false;
+            case 4: 
+                cout << "MUITO OBRIGADO" << endl;
+                cout << "Alcool: " << alcool << endl;
+                cout << "Gasolina: " << gasolina << endl;
+                cout << "Diesel: " << diesel << endl;
+                return 0;
         }
     }
-    cout << "MUITO OBRIGADO" << endl;
-    cout << "Alcool: " << alcool << endl;
-    cout << "Gasolina: " << gasolina << endl;
-    cout << "Diesel: " << diesel << endl;
-    
 }
 ```
