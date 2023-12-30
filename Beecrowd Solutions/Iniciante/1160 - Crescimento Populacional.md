@@ -7,7 +7,6 @@ Porém, em alguns casos o tempo pode ser muito grande, e Mariazinha não se inte
 [Crescimento Populacional - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1160)
 
 # Solução
-
 ```
 #include <bits/stdc++.h>
 using namespace std;
