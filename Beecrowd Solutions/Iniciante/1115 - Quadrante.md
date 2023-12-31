@@ -2,7 +2,7 @@
 
 Escreva um programa para ler as coordenadas (X,Y) de uma quantidade indeterminada de pontos no sistema cartesiano. Para cada ponto escrever o quadrante a que ele pertence. O algoritmo será encerrado quando pelo menos uma de duas coordenadas for NULA (nesta situação sem escrever mensagem alguma).
 
-[Quadrante - Beecrowd](https://www.beecrowd.com.br/judge/pt/runs/code/37123117)
+[Quadrante - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1115)
 
 # Solução
 
