@@ -9,22 +9,21 @@ Leia um valor inteiro X. Em seguida apresente os 6 valores ímpares consecutivos
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll long long
-#define ar array
-
-int main(){
+int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
 
     int x;
     cin >> x;
 
-    if(x % 2 == 0)
+    // Se x for par, comece do próximo ímpar. Caso contrário, comece de x.
+    if(x % 2 == 0) {
         x++;
+    }
 
-    for(int i = 0; i < 5; i++){
+    for(int i = 0; i < 6; i++) {
         cout << x << endl;
-        x+=2;
+        x += 2;
     }
     
     return 0;
