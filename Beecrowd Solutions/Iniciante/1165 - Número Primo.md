@@ -11,11 +11,11 @@ Na matemática, um Número Primo é aquele que pode ser dividido somente por 1 (
 using namespace std;
 
 bool primo(int n){
-	if(n <= 1) return false;
-	for(int i = 2; i < sqrt(n); ++i){
-		if(n % i == 0) return false;
-	}
-	return true;
+    if(n <= 1) return false;
+    for(int i = 2; i <= sqrt(n); ++i){  // Change here: i <= sqrt(n)
+        if(n % i == 0) return false;
+    }
+    return true;
 }
 
 void solve(int t){
