@@ -6,7 +6,7 @@ Isto faz parte da Competição Ideal de Consumidores de Chá Puro (da sigla em i
 
 Dado o tipo de chá real e as respostas fornecidas, determinar o número de participantes que receberam a resposta correta.
 
-[Identificando o Chá - Beecrowd](https://www.beecrowd.com.br/judge/pt/runs/code/37124206)
+[Identificando o Chá - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/2006)
 
 ```
 #include <bits/stdc++.h>
