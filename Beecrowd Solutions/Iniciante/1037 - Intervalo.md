@@ -23,16 +23,16 @@ int main() {
     
     if(num >= 0 && num <= 25)
         cout << "Intervalo [0,25]" << endl;
-    else if(num <= 50)
+    else if(num > 25 && num <= 50) // Corrigido aqui
         cout << "Intervalo (25,50]" << endl;
-    else if(num <= 75)
+    else if(num > 50 && num <= 75) // E aqui
         cout << "Intervalo (50,75]" << endl;
-    else if(num <= 100)
+    else if(num > 75 && num <= 100) // E aqui
         cout << "Intervalo (75,100]" << endl;
     else
         cout << "Fora de intervalo" << endl;
 
-    
     return 0;
 }
+
 ```
