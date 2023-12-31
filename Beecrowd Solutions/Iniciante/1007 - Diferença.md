@@ -17,9 +17,8 @@ int main() {
     cin >> a >> b >> c >> d;
 
     cout << fixed << setprecision(0);
-    cout << "DIFERENCA = " << a * b - c * d << endl;
+    cout << "DIFERENCA = " << a * b - c * d << "\n";
 
     return 0;
 }
-
 ```
