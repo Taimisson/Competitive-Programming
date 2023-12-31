@@ -11,9 +11,7 @@ Após comprar vários sítios adjacentes na região do oeste catarinense, a fam�
 #include <iomanip>
 
 #define ll long long
-
 using namespace std;
-
 
 void solve(int n, vector<int>& estrelas) {
 	vector<bool> visitado(n, false);
@@ -25,7 +23,6 @@ void solve(int n, vector<int>& estrelas) {
 			visitado[i] = true;
 			sitiosAtacados++;
 		}
-
 
 		if(estrelas[i] > 0){
 			bool ehImpar = estrelas[i] % 2 != 0;
@@ -39,10 +36,7 @@ void solve(int n, vector<int>& estrelas) {
 	for(int j = 0; j < n; j++){
 		carneirosNaoRoubados += estrelas[j];
 	}
-
 	cout << sitiosAtacados << " " << carneirosNaoRoubados << endl;
-
-
 }
 
 int main() { 
