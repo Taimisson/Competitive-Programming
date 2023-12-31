@@ -9,7 +9,7 @@ O professor MC ficou curioso com esse padrão e quer saber se, ao medir outras p
 # Solução
 
 ```
-//#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 #include <iomanip>
 #define ll long long
 using namespace std;
@@ -42,7 +42,6 @@ void solve(int n){
 	}
 
 	cout << padrao << endl;
-
 }
 
 int main(){
@@ -53,6 +52,5 @@ int main(){
 	int n;
 	cin >> n;
 	solve(n);
-
 }
 ```
