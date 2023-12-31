@@ -20,7 +20,7 @@ void solve(int n){
 		if(x == n)
 			cont++;
 	}
-	cout << cont << endl;
+	cout << cont << "\n";
 }
 	
 int main(){ 
