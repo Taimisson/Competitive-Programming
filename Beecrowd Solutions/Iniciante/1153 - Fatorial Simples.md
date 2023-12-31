@@ -2,7 +2,7 @@
 
 Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N = N * (N-1) * (N-2) * (N-3) * ... * 1
 
-[Fatorial Simples - Beecrowd]()
+[Fatorial Simples - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1153)
 
 # Solução
 
