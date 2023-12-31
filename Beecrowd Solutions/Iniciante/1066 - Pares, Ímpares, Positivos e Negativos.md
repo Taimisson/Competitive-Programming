@@ -2,7 +2,7 @@
 
 Leia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.
 
-[]()
+[Pares, Ímpares, Positivos e Negativos - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1066)
 
 # Solução
 
