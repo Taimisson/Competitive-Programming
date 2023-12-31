@@ -21,9 +21,9 @@ int main() {
     int mes = x / 30;
     int dias = x % 30;
     
-    cout << anos << " ano(s)" << endl;
-    cout << mes << " mes(es)" << endl;
-    cout << dias << " dia(s)" << endl;
+    cout << anos << " ano(s)" << "\n";
+    cout << mes << " mes(es)" << "\n";
+    cout << dias << " dia(s)" << "\n";
  
     return 0;
 }
