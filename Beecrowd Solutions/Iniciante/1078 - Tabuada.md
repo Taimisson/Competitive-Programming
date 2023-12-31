@@ -20,4 +20,5 @@ int main() {
         cout << i << " x " << n << " = " << i * n << "\n";
  
     return 0;
-}```
+}
+```
