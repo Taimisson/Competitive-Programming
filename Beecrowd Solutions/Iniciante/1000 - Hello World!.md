@@ -14,7 +14,6 @@ O seu primeiro programa em qualquer linguagem de programação normalmente é o 
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
-    return 0;
+    cout << "Hello World!" << "\n";
 }
 ```
