@@ -10,9 +10,10 @@ Guardar os números de Fibonacci para não dar Time Limit Exceed
 
 ```
 #include <bits/stdc++.h>
+#define ll long long
 using namespace std;
 
-long long fib[61]; // Array to store Fibonacci numbers
+ll fib[61]; // Array to store Fibonacci numbers
 
 void calculateFibonacci() {
     fib[0] = 0;
@@ -36,4 +37,5 @@ int main() {
         cout << "Fib(" << x << ") = " << fib[x] << "\n";
     }
 }
+
 ```
