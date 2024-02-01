@@ -7,6 +7,8 @@ Sua tarefa é determinar em quantas partes esses segmentos dividem o interior do
 
 [Dividindo Círculos - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/2802)
 
+# Solução
+
 ```
 #include <bits/stdc++.h>
 #include <iomanip>
