@@ -4,7 +4,7 @@ Qual o menor raio do conduite que você deve comprar? Em outras palavras, dado d
 
 [Bob Conduite - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1589)
 
-# Solution
+# Solução
 
 ```
 #include <bits/stdc++.h>
