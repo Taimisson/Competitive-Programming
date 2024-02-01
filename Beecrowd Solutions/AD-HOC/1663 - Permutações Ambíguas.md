@@ -5,7 +5,7 @@ Uma permutação ambígua é uma permutação que não pode distinguida de sua p
 
 [Permutações Ambíguas - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1663)
 
-# Solution
+# Solução
 
 ```
 #include <iostream>

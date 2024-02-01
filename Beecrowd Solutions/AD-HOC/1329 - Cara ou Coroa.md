@@ -4,7 +4,7 @@ Ontem Maria contou a João que ela guarda um registro de todas as vezes que eles
 
 [Cara ou Coroa - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/1329)
 
-# Solution
+# Solução
 
 ```
 #include <bits/stdc++.h>
