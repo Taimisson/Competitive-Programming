@@ -8,6 +8,8 @@ Dado o tipo de chá real e as respostas fornecidas, determinar o número de part
 
 [Identificando o Chá - Beecrowd](https://www.beecrowd.com.br/judge/pt/problems/view/2006)
 
+# Solução
+
 ```
 #include <bits/stdc++.h>
 using namespace std;
