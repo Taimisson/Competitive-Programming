@@ -1,5 +1,7 @@
 # 1865 - Mjölnir
 
+Escreva um programa que, dado um nome, e a força, em Newtons, aplicado ao tentar levantar o Mjölnir, informar se a pessoa conseguiu ou não levantá-lo.
+
 [Mjölnir - Beecrowd](https://judge.beecrowd.com/pt/problems/view/1865)
 
 # Solução
