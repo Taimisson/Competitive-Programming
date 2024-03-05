@@ -14,13 +14,14 @@ using namespace std;
 int main() {
     int A, B;
     cin >> A >> B;
-    
+
+    int result = A > B ? A : B; // Escolhe o maior valor entre A e B
     if (A == B) {
-        result = A;
+        result = A; // Se A e B são iguais, mantém o valor para formar um trio.
     }
-    cout << result << endl;
+    
+    cout << result << endl; // Imprime o valor da carta que deve ser escolhida.
     
     return 0;
 }
-
 ```
