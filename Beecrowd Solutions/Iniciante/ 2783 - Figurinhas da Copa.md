@@ -6,7 +6,6 @@ Dados o número total de espaços e figurinhas do álbum (N), a lista das figuri
 
 [Figurinhas da Copa - Beecrowd](https://judge.beecrowd.com/pt/problems/view/2783)
 
-
 # Solução
 
 ```
