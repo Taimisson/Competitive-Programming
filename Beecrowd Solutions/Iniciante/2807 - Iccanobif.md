@@ -11,5 +11,27 @@ Sua tarefa é, dado um valor inteiro, imprimir a sequência de Iccanobif de tama
 # Solution
 
 ```
+#include <bits/stdc++.h>
 
+using namespace std;
+
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int n;
+    cin >> n;
+
+    vector<int> iccanobif(n);
+    if(n > 0) iccanobif[0] = 1;
+    if(n > 1) iccanobif[1] = 1;
+
+    for(int i = 2; i < n; ++i) iccanobif[i] = iccanobif[i - 1] + iccanobif[i - 2];
+
+    for(int i = n - 1; i > 0; --i) cout << iccanobif[i] << " ";
+
+    if (n > 0) cout << iccanobif[0] << endl;
+
+    return 0;
+}
 ```
