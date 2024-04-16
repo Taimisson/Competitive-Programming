@@ -1,5 +1,9 @@
 # 2540 - Impeachment do Líder
 
+Para resolver a situação, uma votação será realizada entre todos os N jogadores do seu time. Cada jogador deverá votar se o impeachment deve ou não ocorrer. Se o número de votos favoráveis ao impeachment foi maior ou igual a 2/3 (dois terços) do total de jogadores, o líder será afastado. Caso contrário, a acusação é arquivada e ele continuará no cargo.
+
+Dados os votos de todos os jogadores, determine o resultado da votação.
+
 [Impeachment do Líder - Beecrowd](https://judge.beecrowd.com/pt/problems/view/2540)
 
 # Solução
