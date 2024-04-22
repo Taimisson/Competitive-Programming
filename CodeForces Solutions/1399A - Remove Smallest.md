@@ -3,7 +3,6 @@
 https://codeforces.com/problemset/problem/1399/A
 
 # Solution
-
 ```
 #include<bits/stdc++.h>
 #define ll              long long

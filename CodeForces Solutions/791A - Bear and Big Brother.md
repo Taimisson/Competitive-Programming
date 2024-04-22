@@ -3,7 +3,6 @@
 https://codeforces.com/problemset/problem/791/A
 
 # Solution
-
 ```
 #include <iostream>
 using namespace std;

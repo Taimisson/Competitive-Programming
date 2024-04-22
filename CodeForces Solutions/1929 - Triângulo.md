@@ -8,7 +8,6 @@ Neste problema, você precisa ajudar Ana e suas amigas a determinar se, dados os
 
 ```
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main()
