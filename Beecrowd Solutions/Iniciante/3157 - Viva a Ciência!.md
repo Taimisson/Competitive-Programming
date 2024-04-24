@@ -4,7 +4,7 @@ Você conhece Oronob, porém, ao contrário dele, você é sensato e sabe que ci
 
 Pois bem, crie então um algoritmo que muda o texto das opiniões de Oronob para a real verdade.
 
-[Viva a Ciência! - Beecrowd]()
+[Viva a Ciência! - Beecrowd](https://judge.beecrowd.com/pt/problems/view/3157)
 
 # Solução
 
