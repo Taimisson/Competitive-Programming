@@ -12,24 +12,18 @@ Faça um programa para calcular isso.
 #include <iostream>
 using namespace std;
 
-int calcularGarrafa(int N, int K) {
-    int total = N;
-    while (N >= K) {
-        int novas_garrafas = N / K;
-        total += novas_garrafas;
-        N = novas_garrafas + (N % K);
-    }
-    return total;
-}
-
 int main() {
-    int T;
-    cin >> T;
+    int n, x, y;
 
-    for (int i = 0; i < T; ++i) {
-        int N, K;
-        cin >> N >> K;
-        cout << calcularGarrafa(N, K) << endl;
+    cin >> n;
+
+    while (n--) {
+        cin >> x >> y;
+
+        int contador = 0;
+        for (int i = x; i >= y; i -= y) ++contador;
+
+        cout << contador + (x % y) << endl;
     }
 
     return 0;
