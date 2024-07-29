@@ -1,9 +1,5 @@
 # Garçom
 
-Escreva um programa que, dado o número de latas e copos em cada bandeja que o garçom tentou entregar, imprime o total de copos que ele quebrou.
-
-[Garçom](https://neps.academy/br/exercise/324)
-
 # Solução
 ```
 #include <iostream>

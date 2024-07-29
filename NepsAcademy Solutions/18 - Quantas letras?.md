@@ -1,31 +1,5 @@
 # Quantas Letras? 
 
-Faça um programa para ler uma string S (sem espaços) e uma letra C. Seu programa deve imprimir a quantidade de vezes que a letra C aparece em S.
-
-- Entrada
-
-A entrada consiste de duas linhas. A primeira linha contém uma string S. A segunda linha contém uma letra C.
-
-- Saída
-
-A saída consiste de uma única linha contendo um inteiro correspondente a quantidade de vezes que a letra C aparece na string S
-
-- Restrições
-
-1≤∣S∣≤50
-
-A string contém apenas letras minúsculas do alfabeto
-
-Exemplos de Entrada  |  Exemplos de Saída
-
-        neps
-        x                   0
-        academy
-        a                   2
-        nepsacademy
-        y                   1
-
-
 # Solução em C
 ```
 #include <stdio.h>

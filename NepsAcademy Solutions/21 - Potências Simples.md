@@ -1,7 +1,5 @@
 # Potências Simples
 
-[Potências Simples](https://neps.academy/br/exercise/216)
-
 # Solução
 ```
 #include <iostream>

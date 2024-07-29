@@ -1,25 +1,5 @@
 # Fatorial
 
-Faça um programa para ler um inteiro N e imprima o valor de N!. N! significa fatorial de N.
-
-- Entrada
-
-A entrada consiste de uma linha contendo o valor de N.
-
-- Saída
-
-A saída consiste de uma linha contendo o valor de N!.
-
-- Restrições
-
-0≤N≤12
-
-Exemplos de Entrada	| Exemplos de Saída
-
-        0                   1
-        1                   1
-        5                   120
-        6                   720
 
 # Solução em C
 ```

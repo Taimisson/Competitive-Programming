@@ -1,29 +1,5 @@
 # Inverso
 
-Faça um programa para ler 10 valores inteiros como entrada e imprima na ordem inversa da que foram lidos.
-
-- Entrada
-
-A entrada consiste de 10 linhas, cada linha contém um valor inteiro.
-
-- Saída
-
-A saída consiste de dez linha contendo, cada linha com um os 10 valores lidos, porém, na ordem contrária da que foram lidos.
-
-Exemplos de Entrada	| Exemplos de Saída
-
-        1                   10
-        2                   9
-        3                   8
-        4                   7
-        5                   6
-        6                   5
-        7                   4
-        8                   3  
-        9                   2
-        10                  1
-
-
 # Solução em C
 ```
 #include <iostream>
