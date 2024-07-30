@@ -10,14 +10,13 @@ int main(){
     int A, B, C;
     cin >> A >> B >> C;
 
-    unordered_map<int, int> map;
-
-    map[A]++;
-    map[B]++;
-    map[C]++;
-
-    for(auto pair : map)
-        if(pair.second == 1) cout << pair.first << endl;
+    if (A == B) {
+        cout << C << endl;
+    } else if (A == C) {
+        cout << B << endl;
+    } else {
+        cout << A << endl;
+    }
 
     return 0;
 }
