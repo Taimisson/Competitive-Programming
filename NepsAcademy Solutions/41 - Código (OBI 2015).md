@@ -1,4 +1,4 @@
-# Submissão
+# Código (OBI 2015)
 
 # Solução
 ```
