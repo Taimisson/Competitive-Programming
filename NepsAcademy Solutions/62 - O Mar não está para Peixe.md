@@ -6,32 +6,29 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int m[102][102];
+int mar[102][102];
 
 int main()
 {
-    int n;
+    int n, x1, x2, y1, y2, i, j, count = 0;
 
     cin >> n;
 
-    while(n--)
-    {
-        int xi, xf, yi, yf;
+    while(n--){
+        cin >> x1 >> x2 >> y1 >> y2;
+        x1--; x2--; y1--; y2--;
 
-        cin >> xi >> xf >> yi >> yf;
-
-        for(int i = yi - 1; i < yf - 1; i++)
-            for(int j = xi - 1; j < xf - 1; j++)
-                m[i][j] = 1;
+        for(i = x1; i < x2; i++)
+            for(j = y1; j < y2; j++)
+                if(!mar[i][j]){
+                    mar[i][j] = true;
+                    count++;
+                }
     }
 
-    int c = 0;
+    cout << count;
 
-    for(int i = 0; i < 100 ; i++)
-        for(int j = 0; j < 100; j++)
-            if(m[i][j]) c++;
-
-    cout << c << endl;
+    return 0;
 }
 
 auto init = []() {
@@ -40,4 +37,5 @@ auto init = []() {
     cout.tie(nullptr);
     return 'c';
 }();
+
 ```
