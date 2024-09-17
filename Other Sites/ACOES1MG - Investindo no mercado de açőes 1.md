@@ -37,5 +37,4 @@ auto init = []() {
     cout.tie(nullptr);
     return 'c';
 }();
-
 ```
