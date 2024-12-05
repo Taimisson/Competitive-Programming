@@ -13,11 +13,11 @@ int main() {
         b.push_back(y);
     }
 
-    int ans = 0;
-    map<int, int> freq;
+    sort(a.begin(), a.end());
+    sort(b.begin(), b.end());
 
-    for(int x : b) freq[x]++;
-    for(int x : a) ans += x * freq[x];
+    int ans = 0;
+    for(int i = 0; i < N; ++i) ans += abs(a[i] - b[i]);
 
     cout << ans << endl;
 }
